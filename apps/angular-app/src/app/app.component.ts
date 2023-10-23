@@ -11,4 +11,8 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 })
 export class AppComponent {
   title = 'angular-app';
+
+  constructor() {
+    console.log('AppComponent constructor');
+  }
 }
